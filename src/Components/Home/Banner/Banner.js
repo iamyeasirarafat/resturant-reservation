@@ -6,8 +6,9 @@ import phoneIcon from "../../../assets/icons/phone.svg"
 import './Banner.css'
 const Banner = () => {
     return (
-        <div className="banner">
-            <div className="md:grid grid-cols-2 w-11/12 mx-auto h-[100vh] items-center ">
+        <div className="mb-20">
+            <div className="banner">
+            <div className="md:grid grid-cols-2 w-11/12 mx-auto h-[80vh] items-center ">
                 <div className="md:order-last">
                     <img className="md:w-9/12 mb-10 mx-auto" src={banner} alt="" />
                 </div>
@@ -17,7 +18,8 @@ const Banner = () => {
                     <button className="btn custom-btn">get started</button>
                 </div>
             </div>
-            <div className="w-11/12  mx-auto md:grid lg:grid-cols-3 gap-x-6  md:grid-cols-2">
+            </div>
+            <div className="w-11/12 banner-shadow  mx-auto md:grid lg:grid-cols-3 gap-x-6  md:grid-cols-2">
                 <div className="flex shadow-2xl mb-10 rounded-2xl py-10 items-center bg-gradient-to-r from-primary to-secondary">
                     <img className="mx-6 w-20 " src={clockIcon} alt="" />
                     <div className="">
@@ -26,14 +28,14 @@ const Banner = () => {
                     </div>
                 </div>
                 <div className="flex shadow-2xl mb-10 rounded-2xl py-10 items-center bg-accent">
-                    <img className="mx-6 w-20 " src={markerIcon} alt="" />
+                    <img className="mx-6  " src={markerIcon} alt="" />
                     <div className="">
                         <h5 className="text-xl text-white ">Visit our location</h5>
                         <p className="text-base text-white mr-4">Brooklyn, NY 10036, United States</p>
                     </div>
                 </div>
                 <div className="flex shadow-2xl mb-10 rounded-2xl py-10 items-center bg-gradient-to-r from-primary to-secondary">
-                    <img className="mx-6 w-20 " src={phoneIcon} alt="" />
+                    <img className="mx-6  " src={phoneIcon} alt="" />
                     <div className="">
                         <h5 className="text-xl text-white ">Contact us now</h5>
                         <p className="text-base text-white mr-4">+000 123 456789</p>
