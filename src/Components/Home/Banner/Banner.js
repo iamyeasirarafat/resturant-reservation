@@ -8,7 +8,7 @@ const Banner = () => {
     return (
         <div className="mb-20">
             <div className="banner mb-28 md:mb-0">
-            <div className="md:grid grid-cols-2 w-11/12 mx-auto h-[80vh] items-center ">
+            <div className="md:grid grid-cols-2 w-11/12 mx-auto h-[80vh]  items-center ">
                 <div className="md:order-last">
                     <img className="md:w-9/12 mb-10 mx-auto" src={banner} alt="" />
                 </div>
