@@ -9,7 +9,7 @@ const Testimonial = () => {
                     <h4 className="text-accent text-4xl">What Our Patients Says</h4>
                 </div>
                 <div className="">
-                    <img className="w-48 " src={quote} alt="" />
+                    <img className="md:w-48 w-24 " src={quote} alt="" />
                 </div>
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 w-10/12 mx-auto gap-x-14">
@@ -20,7 +20,7 @@ const Testimonial = () => {
                             <div className="flex items-center mt-9">
                                 <div class="avatar">
                                     <div class="w-16 rounded-full ring ring-primary ring-offset-base-100 mr-4">
-                                        <img className="" src="https://api.lorem.space/image/face?hash=3274" />
+                                        <img className="" alt="" src="https://api.lorem.space/image/face?hash=3274" />
                                     </div>
                                 </div>
                                 <div className="">
@@ -38,7 +38,7 @@ const Testimonial = () => {
                             <div className="flex items-center mt-9">
                                 <div class="avatar">
                                     <div class="w-16 rounded-full ring ring-primary ring-offset-base-100 mr-4">
-                                        <img className="" src="https://api.lorem.space/image/face?hash=3154" />
+                                        <img className="" alt="" src="https://api.lorem.space/image/face?hash=3154" />
                                     </div>
                                 </div>
                                 <div className="">
@@ -56,7 +56,7 @@ const Testimonial = () => {
                             <div className="flex items-center mt-9">
                                 <div class="avatar">
                                     <div class="w-16 rounded-full ring ring-primary ring-offset-base-100 mr-4">
-                                        <img className="" src="https://api.lorem.space/image/face?hash=3174" />
+                                        <img alt="" className="" src="https://api.lorem.space/image/face?hash=3174" />
                                     </div>
                                 </div>
                                 <div className="">
