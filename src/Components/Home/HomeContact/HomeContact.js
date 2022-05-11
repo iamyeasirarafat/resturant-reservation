@@ -1,5 +1,5 @@
 import React from 'react';
-import appointmentbg from '../../assets/images/appointment.png'
+import appointmentbg from '../../../assets/images/appointment.png'
 const HomeContact = () => {
     return (
         <div style={{ background: `url(${appointmentbg})`}} class="flex justify-center" >
