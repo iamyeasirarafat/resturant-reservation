@@ -4,6 +4,7 @@ import './App.css';
 import Appointment from './Components/Appointment/Appointment';
 import Footer from './Components/Footer/Footer';
 import Home from './Components/Home/Home';
+import Login from './Components/Login/Login';
 import Navbar from './Components/Navbar/Navbar';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Route path="/" element={<Home></Home>}></Route>
       <Route path="home" element={<Home></Home>}></Route>
       <Route path="appointment" element={<Appointment></Appointment>}></Route>
+      <Route path="login" element={<Login></Login>}></Route>
     </Routes>
     <Footer></Footer>
     </div>
