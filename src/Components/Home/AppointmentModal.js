@@ -4,6 +4,7 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import auth from '../firebase/firebase.init';
 import Loading from '../Loading/Loading';
 
+
 const AppointmentModal = ({ service, date }) => {
     const { name, slots } = service;
     const [user, loading] = useAuthState(auth);
@@ -29,8 +30,8 @@ const AppointmentModal = ({ service, date }) => {
                            }
                         
                         </select>
-                        <input type="text" value={user.displayName} disabled placeholder="Your Name" className="input mb-3   input-bordered w-full max-w-xs" />
-                        <input type="email" value={user.email} disabled placeholder="Your Email" className="input mb-3   input-bordered w-full max-w-xs" />
+                        <input type="text" value={user?.displayName} disabled placeholder="Your Name" className="input mb-3   input-bordered w-full max-w-xs" />
+                        <input type="email" value={user?.email} disabled placeholder="Your Email" className="input mb-3   input-bordered w-full max-w-xs" />
                         <input type="number" placeholder="Your Phone" className="input mb-3  input-bordered w-full max-w-xs" />
                        <button> <label type="submit" className="btn" htmlFor="appointment-modal">Submit</label></button>
                     </form>

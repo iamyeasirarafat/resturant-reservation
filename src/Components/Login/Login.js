@@ -15,6 +15,7 @@ const Login = () => {
     }
     if(gUser || user){
         navigate(from, { replace: true });
+        console.log(user);
     }
     const handleLogin = async (e)=>{
         e.preventDefault();

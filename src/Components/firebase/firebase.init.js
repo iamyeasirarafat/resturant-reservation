@@ -1,13 +1,13 @@
 
 import { initializeApp } from "firebase/app";
-import { getAuth } from "firebase/auth"
+import { getAuth } from "firebase/auth";
 const firebaseConfig = {
-  apiKey: "AIzaSyBhqdZ43kAHjm0TZkm6a-pTQGNAVKtwVxo",
-  authDomain: "doctors-portal-ce68b.firebaseapp.com",
-  projectId: "doctors-portal-ce68b",
-  storageBucket: "doctors-portal-ce68b.appspot.com",
-  messagingSenderId: "190149774851",
-  appId: "1:190149774851:web:8300fdb1e736fab0f88836"
+  apiKey: "AIzaSyAin0aJuNLpM1YXdVQz1nrqijTDvpquSlQ",
+  authDomain: "restaurant-reservation-9fcef.firebaseapp.com",
+  projectId: "restaurant-reservation-9fcef",
+  storageBucket: "restaurant-reservation-9fcef.appspot.com",
+  messagingSenderId: "1018597636292",
+  appId: "1:1018597636292:web:22d60123a4a5543ee9f191"
 };
 
 // Initialize Firebase
